@@ -1,0 +1,65 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="static.aspx.cs" Inherits="Chapter_Sample.chapter_3.version_3._2._0._static" %>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bootstrap 3.2.0 Template</title>
+
+    <!-- bootstrap -->
+    <link href="~/assets/version-3.2.0/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- HTML5 shim -->
+    <!--[if lt IE 9]>
+        <script src='<%= this.ResolveUrl("~/assets/external/html5shiv.min.js") %>'></script>
+        <script src='<%= this.ResolveUrl("~/assets/external/respond.min.js") %>'></script>     
+    <![endif]-->
+
+    <style>
+        .col-sm-12 { background-color: burlywood; }
+        .col-sm-9 { background-color: lightseagreen; }
+        .col-sm-6 { background-color: cornsilk; }
+        .col-sm-6 + .col-sm-6 { background-color: lightcyan; }
+        .col-sm-3 { background-color: lightsteelblue; }
+
+        .row + .row { margin-top: 1em; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Twitter Bootstrap</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Twitter</h1>
+            </div>
+            <div class="col-sm-6">
+                <h1>Bootstrap</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h1>Twitter</h1>
+            </div>
+            <div class="col-sm-9">
+                <h1>Bootstrap</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src='<%= this.ResolveUrl("~/assets/jquery/jquery-1.11.1.js") %>' type="text/javascript"></script>
+    <script src='<%= this.ResolveUrl("~/assets/jquery/jquery-ui.js") %>' type="text/javascript"></script>
+
+    <!-- bootstrap -->
+    <script src='<%= this.ResolveUrl("~/assets/version-3.2.0/js/bootstrap.js") %>' type="text/javascript"></script>
+</body>
+</html>
