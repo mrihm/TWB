@@ -7,8 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Chapter_Sample.chapter_3.version_3._2._0
 {
-    public partial class grid : System.Web.UI.Page
+    public partial class non_responsive : System.Web.UI.Page
     {
-        
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

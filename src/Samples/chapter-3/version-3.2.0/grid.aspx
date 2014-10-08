@@ -21,6 +21,12 @@
     <![endif]>-->
 
     <style type="text/css">
+
+        body { 
+            min-width: 1000px;          /* suppose you want minimun width of 1000px */
+            width: auto !important;     /* Firefox will set width as auto */
+        }
+
         .show-grid [class^="col-"] { padding: 10px 5px; background-color: rgba(86, 61, 124, .15); border: solid 1px rgba(86,61,124,.2); }
         .container.show-grid { margin-bottom: 2em; }
 
@@ -42,6 +48,20 @@
             <div class="col-md-1">.col-md-1</div>
             <div class="col-md-1">.col-md-1</div>
             <div class="col-md-1">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
         </div>
         <div class="row">
             <div class="col-md-8">.col-md-8</div>
@@ -72,6 +92,20 @@
             <div class="col-md-1">.col-md-1</div>
             <div class="col-md-1">.col-md-1</div>
             <div class="col-md-1">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
+            <div class="col-xs-1">.col-xs-1</div>
         </div>
         <div class="row">
             <div class="col-md-8">.col-md-8</div>

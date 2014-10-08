@@ -102,6 +102,7 @@
     <Content Include="chapter-3\version-2.3.2\fluid.aspx" />
     <Content Include="chapter-3\version-3.2.0\mobile.aspx" />
     <Content Include="chapter-3\version-3.2.0\grid.aspx" />
+    <Content Include="chapter-3\version-3.2.0\non-responsive.aspx" />
     <Content Include="chapter-3\version-3.2.0\static.aspx" />
     <Content Include="chapter-4\version-2.3.2\Blocks.aspx" />
     <Content Include="chapter-4\version-2.3.2\Lead.aspx" />
@@ -118,6 +119,8 @@
     <Content Include="chapter-7\version-2.3.2\Navigation.aspx" />
     <Content Include="chapter-7\version-2.3.2\Pills.aspx" />
     <Content Include="chapter-7\version-2.3.2\Tabs.aspx" />
+    <Content Include="chapter-7\version-3.2.0\Navigation.aspx" />
+    <Content Include="chapter-7\version-3.2.0\Non-Navigation.aspx" />
     <Content Include="examples\basic.aspx" />
     <Content Include="examples\grids.aspx" />
     <Content Include="examples\themes.aspx" />
@@ -167,6 +170,13 @@
     </Compile>
     <Compile Include="chapter-3\version-3.2.0\grid.aspx.designer.cs">
       <DependentUpon>grid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter-3\version-3.2.0\non-responsive.aspx.cs">
+      <DependentUpon>non-responsive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter-3\version-3.2.0\non-responsive.aspx.designer.cs">
+      <DependentUpon>non-responsive.aspx</DependentUpon>
     </Compile>
     <Compile Include="chapter-3\version-3.2.0\static.aspx.cs">
       <DependentUpon>static.aspx</DependentUpon>
@@ -280,6 +290,20 @@
     <Compile Include="chapter-7\version-2.3.2\Tabs.aspx.designer.cs">
       <DependentUpon>Tabs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="chapter-7\version-3.2.0\Navigation.aspx.cs">
+      <DependentUpon>Navigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter-7\version-3.2.0\Navigation.aspx.designer.cs">
+      <DependentUpon>Navigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chapter-7\version-3.2.0\Non-Navigation.aspx.cs">
+      <DependentUpon>Non-Navigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chapter-7\version-3.2.0\Non-Navigation.aspx.designer.cs">
+      <DependentUpon>Non-Navigation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="examples\basic.aspx.cs">
       <DependentUpon>basic.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -318,8 +342,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\version-3.2.0\css\bootstrap-theme.css.map" />
-    <Content Include="assets\version-3.2.0\css\bootstrap.css.map" />
     <Content Include="assets\version-3.2.0\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\version-3.2.0\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\version-3.2.0\fonts\glyphicons-halflings-regular.woff" />
@@ -334,7 +356,6 @@
     <Folder Include="chapter-4\version-3.2.0\" />
     <Folder Include="chapter-5\version-3.2.0\" />
     <Folder Include="chapter-6\version-3.2.0\" />
-    <Folder Include="chapter-7\version-3.2.0\" />
     <Folder Include="chapter-8\version-2.3.2\" />
     <Folder Include="chapter-8\version-3.2.0\" />
   </ItemGroup>
